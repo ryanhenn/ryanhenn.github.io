@@ -1,17 +1,27 @@
 <!DOCTYPE HTML>
+
 <html>
 <head>
-    <script type="text/javascript" src="finalproject.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="finalproj.js"></script>
 </head>
 
-<body onload="sayHello()">
+<body>
 
-  <p>Before the script...</p>
+  <!--<button id="gen" onClick="updatePoem()">Click to Play</button>-->
 
-  <button id="gen"></button>
+  <div class = "row">
+    <div class="column">
+        <button id="gen1" onClick="genPoem()">Click To Play</button>
+        <div id="poem">A poem could go here if you want</div>
 
-  <p>...After the script.</p>
-
+    </div>
+    <div class="column">
+      <button id="gen2" onClick="reportWhole()">Don't Click This One</button>
+      <div class="whole1" id="whole">A poem could go here if you want</div>
+    </div>
+  </div>
 </body>
 
 </html>

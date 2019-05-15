@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: #f0efef;
+    color: #6b5b95;
+}
+
+div {
+    font-family: "Courier New"; 
+}
+
+button {
+    font-family: "Courier New"; 
+    font-size: 20pt;
+
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.whole1 {
+    opacity: 0.0;
+}
+
+.name1 {
+    color: #c1502e;
+}
+
+.name0 {
+    color: #86af49;
+}
